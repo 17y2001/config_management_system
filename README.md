@@ -2,21 +2,20 @@
 
 To run the project you can also do this : - 
 
-**In VSCode terminal** - 
+**In VSCode terminal** - <br>
 run this command : python -m venv env
 
 **Install required packages**<br>
 In the terminal, run:<br>
-
 pip install fastapi sqlalchemy pydantic psycopg2-binary uvicorn
 
 **Requirements-**<br>
-fastapi
-sqlalchemy
-pydantic
-psycopg2-binary
-uvicorn
-python-dotenv
+fastapi<br>
+sqlalchemy<br>
+pydantic<br>
+psycopg2-binary<br>
+uvicorn<br>
+python-dotenv<br>
 
 
 **You can test the project on Thunder Client** <br>
