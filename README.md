@@ -42,3 +42,7 @@ In the request body type : <br>
     "gstin": "new_string"
   }
 }<br>
+
+**To run the application**<br>
+Run - uvicorn main:app --reload <br>
+in the terminal
