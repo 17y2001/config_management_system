@@ -44,5 +44,5 @@ In the request body type : <br>
 }<br>
 
 **To run the application**<br>
-Run - uvicorn main:app --reload <br>
+Run: uvicorn main:app --reload <br>
 in the terminal
