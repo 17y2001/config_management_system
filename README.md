@@ -1,6 +1,6 @@
 # config_management_system
 
-So what I've done to make this project, you can also do this : - 
+To run the project you can also do this : - 
 
 **In VSCode terminal** - 
 run this command : python -m venv env
@@ -10,7 +10,7 @@ In the terminal, run:
 
 pip install fastapi sqlalchemy pydantic psycopg2-binary uvicorn
 
-**Requirements** 
+**Requirements-** 
 fastapi
 sqlalchemy
 pydantic
