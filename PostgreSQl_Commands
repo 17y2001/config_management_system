@@ -1,0 +1,14 @@
+To make it public, you have to enter the following queries so that project can run : 
+GRANT ALL PRIVILEGES ON SCHEMA public TO config_user;
+GRANT CREATE, USAGE ON SCHEMA public TO config_user;
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO config_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO config_user;
+
+For Creating the database : 
+CREATE DATABASE config_db;
+CREATE USER config_user WITH PASSWORD 'yourpassword'; // password : yash2001
+ALTER ROLE config_user SET client_encoding TO 'utf8';
+ALTER ROLE config_user SET default_transaction_isolation TO 'read committed';
+ALTER ROLE config_user SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE config_db TO config_user;
+
