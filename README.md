@@ -19,8 +19,8 @@ uvicorn
 python-dotenv
 
 
-**You can test the project on Thunder Client** 
-URL : - http://127.0.0.1:8000<br>
+**You can test the project on Thunder Client** <br>
+Using this URL : - http://127.0.0.1:8000<br>
 Endpoints :- 
 1) POST '/create_configuration'<br>
 In the request body type :<br> {
